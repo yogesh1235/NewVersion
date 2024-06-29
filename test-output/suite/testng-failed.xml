@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserNanme" value="chrome"/>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="selnium.demo.project.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="a"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- selnium.demo.project.NewTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [suite] -->
